@@ -1,14 +1,17 @@
 import './App.css';
+import Footer from './components/Footer';
+import HeroSection from './components/HeroSection';
+import ProjectSection from './components/ProjectSection';
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold text-center">
-        Hello
-      </h1>
+      <HeroSection />
+      <ProjectSection />
+      <Footer />
     </>
   )
 }
 
-export default App
+export default App;
